@@ -32,14 +32,14 @@ for c in code:
 		log = 'open d3plot "/home/ndv/stud/data/Truck/' + nameHere + '/d3plot"' + '\n'
 		log += 'selectpart on ' + comp[cp] + '/0' + '\n'
 		for i in time:
-			log += 'output "/home/mabbasloo/Documents/carData2/f' + c + '_' + comp[cp] + '_' + np.str(i) + '.stl" ' + np.str(i) + ' 7 0 0' + '\n'
+			log += 'output "/home/mabbasloo/Documents/carData/f' + c + '_' + comp[cp] + '_' + np.str(i) + '.stl" ' + np.str(i) + ' 7 0 0' + '\n'
 		log += 'stop'
-		file = open('/home/mabbasloo/Documents/carData2/Data.cfile','w') 
+		file = open('/home/mabbasloo/Documents/carData/Data.cfile','w') 
 		file.write(log) 
 		file.close()
 		os.system('/home/mabbasloo/Documents/lsprepost4.0_centos6/lspp4 Data.cfile')
 		for i in time:
-			fname = '/home/mabbasloo/Documents/carData2/f' + c + '_' + comp[cp] + '_' + np.str(i)
+			fname = '/home/mabbasloo/Documents/carData/f' + c + '_' + comp[cp] + '_' + np.str(i)
 			os.system('/home/mabbasloo/meshconv ' + fname + '.stl ' + '-c obj -o ' + fname)
 			#os.system('/home/mabbasloo/simplify ' + fname + '.obj ' + fname + '.obj ' + np.str(ratio[cp]))
 			os.system('/home/mabbasloo/meshconv ' + fname + '.obj ' + '-c off -o ' + fname)
