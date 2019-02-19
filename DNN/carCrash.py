@@ -42,7 +42,7 @@ ds = dataset.ClassificationDatasetPatchesMinimal(
 
 
 nin = 100
-nclasses = 1500
+nclasses = 1714
 l2_weight = 1e-5
 
 def get_model(inp, patch_op):
