@@ -10,5 +10,3 @@ all time lapses
 
 last time lapse for different crash conditions
 ![alt text](https://github.com/abbasloo/dnnAuto/blob/master/S2000001_60.png)
-
-reference: https://github.com/jonathanmasci
