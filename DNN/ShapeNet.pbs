@@ -1,0 +1,25 @@
+#!/bin/bash
+# submit to the queue
+#PBS -q k40
+# estimate walltime to 24 hours
+#PBS -l walltime=24:00:00
+# name the job (for qstat)
+#PBS -N ShapeNet
+#PBS -M <amin.abbasloo@scai>
+#PBS -m abe
+
+
+echo $PBS_JOBID	
+echo $PBS_QUEUE	
+
+source /home/mabbasloo/.bashrc
+python /home/mabbasloo/ShapeNet/carCrash.py
+
+
+
+
+
+
+
+
+
