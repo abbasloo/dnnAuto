@@ -1,0 +1,13 @@
+$# LS-PrePost command file created by LS-PrePost 4.0 (Beta) - 17Nov2012(10:50) -64bit-Linux
+$# Created on Feb-15-2019 (12:24:52)
+open d3plot "/home/ndv/stud/data/Truck/Truckdataminf004/d3plot"
+ac
+selectpart on S2000004/0
+output "/home/mabbasloo/Documents/carData/f004_S2000004_1.stl" 1 7 0 0
+output "/home/mabbasloo/Documents/carData/f004_S2000004_10.stl" 10 7 0 0
+output "/home/mabbasloo/Documents/carData/f004_S2000004_20.stl" 20 7 0 0
+output "/home/mabbasloo/Documents/carData/f004_S2000004_30.stl" 30 7 0 0
+output "/home/mabbasloo/Documents/carData/f004_S2000004_40.stl" 40 7 0 0
+output "/home/mabbasloo/Documents/carData/f004_S2000004_50.stl" 50 7 0 0
+output "/home/mabbasloo/Documents/carData/f004_S2000004_60.stl" 60 7 0 0
+stop

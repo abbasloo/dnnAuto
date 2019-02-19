@@ -1,0 +1,6 @@
+scp Documents/EG16_tutorial-master.zip mabbasloo@draco1:/home/mabbasloo/
+
+./matlab -softwareopengl
+
+ssh draco1 -X
+
