@@ -5,7 +5,7 @@ rootdir = fileparts(mfilename('fullpath'));
 addpath(fullfile(rootdir, 'util'));
 addpath(fullfile(rootdir, 'sihks'));
 
-shape = loadoff('/home/mabbasloo/Documents/carData2/f010_S2000001_60.off');
+shape = loadoff('/home/mabbasloo/Documents/carData/f010_S2000001_60.off');
 %load(fullfile(rootdir, 'shapes', '0001.scale.1.mat'), 'shape');
 
 %% SIHKS signature
