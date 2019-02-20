@@ -47,9 +47,9 @@ l2_weight = 1e-5
 
 def get_model(inp, patch_op):
     icnn = LL.DenseLayer(inp, 16)
-    icnn = batch_norm(utils_lasagne.GCNNLayer([icnn, patch_op], 16, nrings=6, nrays=12))
-    icnn = batch_norm(utils_lasagne.GCNNLayer([icnn, patch_op], 32, nrings=6, nrays=12))
-    icnn = batch_norm(utils_lasagne.GCNNLayer([icnn, patch_op], 64, nrings=6, nrays=12))
+    icnn = batch_norm(utils_lasagne.GCNNLayer([icnn, patch_op], 16, nrings=4, nrays=8))
+    icnn = batch_norm(utils_lasagne.GCNNLayer([icnn, patch_op], 32, nrings=4, nrays=8))
+    icnn = batch_norm(utils_lasagne.GCNNLayer([icnn, patch_op], 64, nrings=4, nrays=8))
     ffn = batch_norm(LL.DenseLayer(icnn, 512))
     ffn = LL.DenseLayer(icnn, nclasses, nonlinearity=utils_lasagne.log_softmax)
 
@@ -86,7 +86,7 @@ grads = T.grad(cost, params)
 grads_norm = T.nlinalg.norm(T.concatenate([g.flatten() for g in grads]), 2)
 
 # Adam turned out to be a very good choice for correspondence
-updates = L.updates.adam(grads, params, learning_rate=0.001)
+updates = L.updates.adam(grads, params, learning_rate=0.005)
 
 
 ''' Compile '''
