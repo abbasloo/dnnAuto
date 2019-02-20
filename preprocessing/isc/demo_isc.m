@@ -18,15 +18,15 @@ fprintf('.\n');
 
 %% ISC settings
 
-rad = 30;   % radius used for descriptor construction
-nbinsr = 6;   % number of rings
-nbinsth = 12;   % number of rays
+rad = 40;   % radius used for descriptor construction
+nbinsr = 4;   % number of rings
+nbinsth = 8;   % number of rays
 
 rr = [1:nbinsr]/nbinsr*rad;
 th = [1:nbinsth]/nbinsth*2*pi;
 
 fhs = 2.0;     % factor determining hardness of scale quantization
-fha = 0.2;       % factors determining hardness of angle quantization
+fha = 0.01;       % factors determining hardness of angle quantization
 
 shape.f_dns = fastmarchmex('init', int32(shape.TRIV-1), double(shape.X(:)), double(shape.Y(:)), double(shape.Z(:)));
 
