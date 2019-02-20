@@ -35,7 +35,7 @@ ds = dataset.ClassificationDatasetPatchesMinimal(
     os.path.join(base_path, 'disk'),
     None,
     os.path.join(base_path, 'labels'),
-    epoch_size=10)
+    epoch_size=50)
 
 
 ''' Network definition '''
@@ -105,7 +105,7 @@ funcs['predict'] = theano.function([inp.input_var, patch_op.input_var],
 ''' Training (a bit simplified) '''
 
 
-n_epochs = 10
+n_epochs = 50
 eval_freq = 1
 
 start_time = time.time()
