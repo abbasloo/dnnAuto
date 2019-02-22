@@ -86,7 +86,7 @@ grads = T.grad(cost, params)
 grads_norm = T.nlinalg.norm(T.concatenate([g.flatten() for g in grads]), 2)
 
 # Adam turned out to be a very good choice for correspondence
-updates = L.updates.adam(grads, params, learning_rate=0.005)
+updates = L.updates.adam(grads, params, learning_rate=0.001)
 
 
 ''' Compile '''
