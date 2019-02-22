@@ -1,0 +1,144 @@
+504115.draco
+k40
+Loading train descs
+elapsed time 0.494705
+Loading test descs
+elapsed time 0.123107
+Loading train patches
+elapsed time 46.430483
+Loading test patches
+elapsed time 11.594318
+Loading train labels
+elapsed time 0.062583
+Loading test labels
+elapsed time 0.015112
+[Epoch 000][trn] cost  6.883680 (cla 6.8796, reg 0.0040), |grad| = 0.484201, acc = 0.13886 % (366.04sec)
+           [tst] cost  6.361995, acc = 0.56548 %
+[Epoch 001][trn] cost  5.899224 (cla 5.8925, reg 0.0068), |grad| = 0.666786, acc = 0.43407 % (366.04sec)
+           [tst] cost  5.564368, acc = 0.66870 %
+[Epoch 002][trn] cost  5.132574 (cla 5.1220, reg 0.0106), |grad| = 1.065364, acc = 0.39323 % (366.00sec)
+           [tst] cost  4.875114, acc = 0.23337 %
+[Epoch 003][trn] cost  4.417171 (cla 4.4019, reg 0.0153), |grad| = 1.557888, acc = 0.08868 % (365.64sec)
+           [tst] cost  4.225572, acc = 0.25132 %
+[Epoch 004][trn] cost  3.699607 (cla 3.6785, reg 0.0211), |grad| = 1.938805, acc = 0.14119 % (365.62sec)
+           [tst] cost  3.588367, acc = 1.41370 %
+[Epoch 005][trn] cost  3.045094 (cla 3.0170, reg 0.0281), |grad| = 2.292811, acc = 0.76196 % (365.72sec)
+           [tst] cost  3.005751, acc = 3.33902 %
+[Epoch 006][trn] cost  2.439021 (cla 2.4033, reg 0.0357), |grad| = 2.560922, acc = 2.93816 % (365.70sec)
+           [tst] cost  2.586012, acc = 1.30150 %
+[Epoch 007][trn] cost  2.056887 (cla 2.0137, reg 0.0432), |grad| = 2.651614, acc = 0.79463 % (365.62sec)
+           [tst] cost  2.401425, acc = 2.53568 %
+[Epoch 008][trn] cost  1.749983 (cla 1.7000, reg 0.0500), |grad| = 2.537239, acc = 1.21587 % (365.60sec)
+           [tst] cost  2.078250, acc = 17.41316 %
+[Epoch 009][trn] cost  1.532651 (cla 1.4766, reg 0.0561), |grad| = 2.778833, acc = 4.24504 % (365.60sec)
+           [tst] cost  1.865630, acc = 10.21901 %
+[Epoch 010][trn] cost  1.365240 (cla 1.3037, reg 0.0616), |grad| = 2.438540, acc = 5.56709 % (365.79sec)
+           [tst] cost  1.806014, acc = 2.04649 %
+[Epoch 011][trn] cost  1.211504 (cla 1.1450, reg 0.0665), |grad| = 2.316199, acc = 5.76196 % (365.83sec)
+           [tst] cost  1.669944, acc = 23.78602 %
+[Epoch 012][trn] cost  1.092575 (cla 1.0215, reg 0.0710), |grad| = 2.101080, acc = 8.69545 % (365.96sec)
+           [tst] cost  1.563513, acc = 32.55991 %
+[Epoch 013][trn] cost  1.025336 (cla 0.9502, reg 0.0751), |grad| = 2.172928, acc = 7.47725 % (365.55sec)
+           [tst] cost  1.536626, acc = 21.06184 %
+[Epoch 014][trn] cost  0.919376 (cla 0.8405, reg 0.0789), |grad| = 2.251612, acc = 8.92882 % (365.70sec)
+           [tst] cost  1.442771, acc = 22.31398 %
+[Epoch 015][trn] cost  0.878822 (cla 0.7964, reg 0.0824), |grad| = 2.445748, acc = 6.66394 % (365.57sec)
+           [tst] cost  1.396315, acc = 5.28678 %
+[Epoch 016][trn] cost  0.828141 (cla 0.7425, reg 0.0856), |grad| = 2.867256, acc = 2.54026 % (365.67sec)
+           [tst] cost  1.426307, acc = 0.11669 %
+[Epoch 017][trn] cost  0.789851 (cla 0.7012, reg 0.0887), |grad| = 2.230099, acc = 4.29288 % (365.50sec)
+           [tst] cost  1.329339, acc = 33.05359 %
+[Epoch 018][trn] cost  0.694457 (cla 0.6030, reg 0.0915), |grad| = 2.122350, acc = 5.66278 % (365.94sec)
+           [tst] cost  1.350676, acc = 18.45885 %
+[Epoch 019][trn] cost  0.692140 (cla 0.5981, reg 0.0940), |grad| = 1.849210, acc = 12.57060 % (365.86sec)
+           [tst] cost  1.280208, acc = 27.83413 %
+[Epoch 020][trn] cost  0.630260 (cla 0.5339, reg 0.0964), |grad| = 1.773756, acc = 6.74329 % (365.99sec)
+           [tst] cost  1.225846, acc = 30.29800 %
+[Epoch 021][trn] cost  0.625052 (cla 0.5264, reg 0.0986), |grad| = 2.275970, acc = 12.92532 % (365.65sec)
+           [tst] cost  1.321769, acc = 2.15421 %
+[Epoch 022][trn] cost  0.580357 (cla 0.4796, reg 0.1007), |grad| = 1.649531, acc = 15.46324 % (365.84sec)
+           [tst] cost  1.219502, acc = 44.49331 %
+[Epoch 023][trn] cost  0.572578 (cla 0.4699, reg 0.1026), |grad| = 1.815826, acc = 15.87981 % (365.69sec)
+           [tst] cost  1.198842, acc = 17.86644 %
+[Epoch 024][trn] cost  0.540922 (cla 0.4364, reg 0.1045), |grad| = 1.671279, acc = 10.83431 % (365.46sec)
+           [tst] cost  1.193502, acc = 17.87093 %
+[Epoch 025][trn] cost  0.501689 (cla 0.3955, reg 0.1062), |grad| = 1.497740, acc = 27.35939 % (365.90sec)
+           [tst] cost  1.154355, acc = 28.87084 %
+[Epoch 026][trn] cost  0.532201 (cla 0.4244, reg 0.1078), |grad| = 2.226914, acc = 9.38156 % (365.42sec)
+           [tst] cost  1.176498, acc = 10.70371 %
+[Epoch 027][trn] cost  0.510974 (cla 0.4016, reg 0.1094), |grad| = 2.079035, acc = 4.22637 % (365.81sec)
+           [tst] cost  1.172366, acc = 13.36954 %
+[Epoch 028][trn] cost  0.485565 (cla 0.3748, reg 0.1108), |grad| = 1.702726, acc = 22.56126 % (366.00sec)
+           [tst] cost  1.142638, acc = 34.83529 %
+[Epoch 029][trn] cost  0.440382 (cla 0.3283, reg 0.1121), |grad| = 1.538433, acc = 18.52975 % (366.00sec)
+           [tst] cost  1.162757, acc = 17.87990 %
+[Epoch 030][trn] cost  0.462342 (cla 0.3491, reg 0.1133), |grad| = 1.839714, acc = 9.17620 % (365.49sec)
+           [tst] cost  1.136715, acc = 12.00969 %
+[Epoch 031][trn] cost  0.435218 (cla 0.3208, reg 0.1144), |grad| = 1.614266, acc = 8.77246 % (366.02sec)
+           [tst] cost  1.161645, acc = 34.26533 %
+[Epoch 032][trn] cost  0.422548 (cla 0.3071, reg 0.1155), |grad| = 1.659426, acc = 8.98250 % (365.43sec)
+           [tst] cost  1.145698, acc = 33.87936 %
+[Epoch 033][trn] cost  0.403665 (cla 0.2872, reg 0.1164), |grad| = 1.359220, acc = 18.31505 % (365.99sec)
+           [tst] cost  1.127849, acc = 31.62194 %
+[Epoch 034][trn] cost  0.379073 (cla 0.2618, reg 0.1173), |grad| = 1.527765, acc = 15.54609 % (365.61sec)
+           [tst] cost  1.149805, acc = 8.76941 %
+[Epoch 035][trn] cost  0.378348 (cla 0.2603, reg 0.1181), |grad| = 1.401556, acc = 13.53792 % (366.48sec)
+           [tst] cost  1.132396, acc = 34.08581 %
+[Epoch 036][trn] cost  0.356577 (cla 0.2378, reg 0.1188), |grad| = 1.517130, acc = 15.23687 % (365.42sec)
+           [tst] cost  1.131798, acc = 9.60416 %
+[Epoch 037][trn] cost  0.364194 (cla 0.2448, reg 0.1194), |grad| = 1.406377, acc = 8.03851 % (365.48sec)
+           [tst] cost  1.118006, acc = 35.42770 %
+[Epoch 038][trn] cost  0.345217 (cla 0.2252, reg 0.1200), |grad| = 1.293842, acc = 7.94749 % (365.65sec)
+           [tst] cost  1.107364, acc = 42.62634 %
+[Epoch 039][trn] cost  0.345429 (cla 0.2250, reg 0.1205), |grad| = 1.423865, acc = 8.66744 % (365.75sec)
+           [tst] cost  1.087001, acc = 32.88304 %
+[Epoch 040][trn] cost  0.325478 (cla 0.2045, reg 0.1209), |grad| = 1.457612, acc = 17.15986 % (365.86sec)
+           [tst] cost  1.127073, acc = 25.84597 %
+[Epoch 041][trn] cost  0.331236 (cla 0.2099, reg 0.1214), |grad| = 1.373997, acc = 11.36523 % (365.41sec)
+           [tst] cost  1.102978, acc = 36.08742 %
+[Epoch 042][trn] cost  0.313996 (cla 0.1923, reg 0.1217), |grad| = 1.181049, acc = 13.84831 % (365.42sec)
+           [tst] cost  1.124590, acc = 24.90800 %
+[Epoch 043][trn] cost  0.314001 (cla 0.1920, reg 0.1220), |grad| = 1.207276, acc = 11.79813 % (365.43sec)
+           [tst] cost  1.098703, acc = 27.53344 %
+[Epoch 044][trn] cost  0.301404 (cla 0.1791, reg 0.1223), |grad| = 1.110712, acc = 14.30455 % (365.45sec)
+           [tst] cost  1.089557, acc = 32.17844 %
+[Epoch 045][trn] cost  0.291988 (cla 0.1695, reg 0.1225), |grad| = 1.223372, acc = 7.86931 % (365.56sec)
+           [tst] cost  1.084126, acc = 31.81492 %
+[Epoch 046][trn] cost  0.289923 (cla 0.1673, reg 0.1227), |grad| = 1.267275, acc = 6.78996 % (365.67sec)
+           [tst] cost  1.115667, acc = 32.68558 %
+[Epoch 047][trn] cost  0.288719 (cla 0.1659, reg 0.1228), |grad| = 1.199548, acc = 9.44691 % (365.44sec)
+           [tst] cost  1.142260, acc = 24.70604 %
+[Epoch 048][trn] cost  0.275754 (cla 0.1529, reg 0.1229), |grad| = 1.077043, acc = 24.13769 % (365.90sec)
+           [tst] cost  1.151177, acc = 13.05987 %
+[Epoch 049][trn] cost  0.285445 (cla 0.1625, reg 0.1229), |grad| = 1.343033, acc = 5.07235 % (365.79sec)
+           [tst] cost  1.135714, acc = 29.41836 %
+...done training 19975.383224
+Saving output to: /home/mabbasloo/ShapeNet/dumps2/
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_60.mat
+, Acc: 6.94282 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_55.mat
+, Acc: 5.01750 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_50.mat
+, Acc: 26.48775 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_45.mat
+, Acc: 39.96499 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_40.mat
+, Acc: 46.79113 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_35.mat
+, Acc: 61.84364 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_30.mat
+, Acc: 62.95216 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_25.mat
+, Acc: 60.21004 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_20.mat
+, Acc: 66.10268 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_15.mat
+, Acc: 63.82730 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_10.mat
+, Acc: 65.05251 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_5.mat
+, Acc: 63.65228 %
+/home/mabbasloo/ShapeNet/dumps2/f005_S2000001_1.mat
+, Acc: 65.63594 %
+
+Average accuracy across all shapes: 48.80621 %
