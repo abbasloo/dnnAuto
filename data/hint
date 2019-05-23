@@ -4,6 +4,8 @@ zip -r carData.zip carData
 
 scp carData.zip mabbasloo@draco1:/home/mabbasloo/ShapeNet/
 
+rsync -r mabbasloo@takagi:/home/mabbasloo/Documents/carCrashData/ carCrashData
+
 ssh draco1 -X
 
 unzip carData.zip
